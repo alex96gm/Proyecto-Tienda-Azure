@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BF077D7-8FBA-4381-9B65-380DC75D50C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Proyecto_Tienda_PcComponentes.My.MyApplication</StartupObject>
+    <RootNamespace>Proyecto_Tienda_PcComponentes</RootNamespace>
+    <AssemblyName>Proyecto Tienda_PcComponentes</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\alex9\Documents\Aplicación\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Proyecto Tienda_PcComponentes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Proyecto Tienda_PcComponentes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>screen_icon-icons.com_56400.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CBFDFBB36F02E226D74819230A3849D6AC008DC0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Proyecto Tienda_PcComponentes_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrador\Pagina_Administrador.Designer.vb">
+      <DependentUpon>Pagina_Administrador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Pagina_Administrador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\Usuario_Admin.Designer.vb">
+      <DependentUpon>Usuario_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Usuario_Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Facturacion\Factura.Designer.vb">
+      <DependentUpon>Factura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Factura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal y Producto\PantallaDePresentacion.Designer.vb">
+      <DependentUpon>PantallaDePresentacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal y Producto\PantallaDePresentacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal y Producto\Modulo_String_BBDD.vb" />
+    <Compile Include="Facturacion\Pago de productos.Designer.vb">
+      <DependentUpon>Pago de productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Pago de productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto_TiendaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Proyecto_TiendaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto_TiendaDataSet.vb">
+      <DependentUpon>Proyecto_TiendaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Modulo_Mi_Carrito.vb" />
+    <Compile Include="Facturacion\Mi_Carrito.Designer.vb">
+      <DependentUpon>Mi_Carrito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Mi_Carrito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro y Usuarios\MiCuenta.Designer.vb">
+      <DependentUpon>MiCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro y Usuarios\MiCuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro y Usuarios\ContraseñaOlvidada.Designer.vb">
+      <DependentUpon>ContraseñaOlvidada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro y Usuarios\ContraseñaOlvidada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoEmpresa\DondeEstamos.Designer.vb">
+      <DependentUpon>DondeEstamos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoEmpresa\DondeEstamos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoEmpresa\DondeEstamosMurcia.Designer.vb">
+      <DependentUpon>DondeEstamosMurcia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoEmpresa\DondeEstamosMurcia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal y Producto\PaginaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal y Producto\PaginaPrincipal.Designer.vb">
+      <DependentUpon>PaginaPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Principal y Producto\Pagina_Productos.Designer.vb">
+      <DependentUpon>Pagina_Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal y Producto\Pagina_Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoEmpresa\QuienesSomos.Designer.vb">
+      <DependentUpon>QuienesSomos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoEmpresa\QuienesSomos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro y Usuarios\PoliticaDePrivacidad.Designer.vb">
+      <DependentUpon>PoliticaDePrivacidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro y Usuarios\PoliticaDePrivacidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro y Usuarios\Registro_Entrar.Designer.vb">
+      <DependentUpon>Registro_Entrar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro y Usuarios\Registro_Entrar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro y Usuarios\Registro_Entrar_Modulo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Administrador\Pagina_Administrador.resx">
+      <DependentUpon>Pagina_Administrador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\Usuario_Admin.resx">
+      <DependentUpon>Usuario_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Factura.resx">
+      <DependentUpon>Factura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Pago de productos.resx">
+      <DependentUpon>Pago de productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal y Producto\PantallaDePresentacion.resx">
+      <DependentUpon>PantallaDePresentacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro y Usuarios\ContraseñaOlvidada.resx">
+      <DependentUpon>ContraseñaOlvidada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoEmpresa\DondeEstamos.resx">
+      <DependentUpon>DondeEstamos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoEmpresa\DondeEstamosMurcia.resx">
+      <DependentUpon>DondeEstamosMurcia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Mi_Carrito.resx">
+      <DependentUpon>Mi_Carrito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro y Usuarios\MiCuenta.resx">
+      <DependentUpon>MiCuenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal y Producto\PaginaPrincipal.resx">
+      <DependentUpon>PaginaPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal y Producto\Pagina_Productos.resx">
+      <DependentUpon>Pagina_Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoEmpresa\QuienesSomos.resx">
+      <DependentUpon>QuienesSomos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro y Usuarios\PoliticaDePrivacidad.resx">
+      <DependentUpon>PoliticaDePrivacidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro y Usuarios\Registro_Entrar.resx">
+      <DependentUpon>Registro_Entrar.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Perifericos_Monitores.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Proyecto_TiendaDataSet.xsc">
+      <DependentUpon>Proyecto_TiendaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Proyecto_TiendaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Proyecto_TiendaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Proyecto_TiendaDataSet.xss">
+      <DependentUpon>Proyecto_TiendaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\LogoPC.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-naranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero-agon-min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BannerPCComponentes Madrid.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Selecciones.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BannerPcComponentes.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BannerPcComponentes2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BannerPcComponentes3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BannerTiendMurcia.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-facebook.png" />
+    <None Include="Resources\logo-twitter.png" />
+    <None Include="Resources\logo-google+.png" />
+    <None Include="Resources\logo-instragram.png" />
+    <None Include="Resources\logo-youtube.png" />
+    <None Include="Resources\Instagramlogo.png" />
+    <None Include="Resources\Apple iPad 2017 32GB Gris Espacial.jpg" />
+    <None Include="Resources\Intel-Core-I7-7700K .jpg" />
+    <None Include="Resources\MacBook.jpg" />
+    <None Include="Resources\iPhone 7.jpg" />
+    <None Include="Resources\MSI-GTX-1080 .jpg" />
+    <None Include="Resources\AOC-AGON .jpg" />
+    <None Include="Resources\PS4-Pro .jpg" />
+    <None Include="Resources\Asus .jpg" />
+    <None Include="Resources\RazerChroma .jpg" />
+    <None Include="Resources\logoPcCOMPONENTES.jpg" />
+    <None Include="Resources\logoPcComp.jpg" />
+    <None Include="Resources\banner7.png" />
+    <None Include="Resources\banner8.png" />
+    <None Include="Resources\banner10.png" />
+    <Content Include="screen_icon-icons.com_56400.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
