@@ -18,4 +18,9 @@
     Private Sub youtube_Click(sender As Object, e As EventArgs) Handles youtube.Click
         Process.Start("https://www.youtube.com/user/PcComponentescom")
     End Sub
+
+    Private Sub QuienesSomos_Load(sender As Object, e As EventArgs) Handles Me.Load
+        ''rojo 254 verde 127 azul 0 hex fe7f00
+        Panel1.BackColor.ToArgb(fe7f00)
+    End Sub
 End Class

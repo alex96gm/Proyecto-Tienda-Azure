@@ -63,7 +63,7 @@ Partial Class QuienesSomos
         '
         'GroupBox1
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.DarkOrange
+        Me.GroupBox1.BackColor = System.Drawing.Color.White
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Font = New System.Drawing.Font("Javanese Text", 15.25!)
