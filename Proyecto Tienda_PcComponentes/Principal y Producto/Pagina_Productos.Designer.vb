@@ -49,8 +49,6 @@ Partial Class Pagina_Productos
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.BindingSourceBBDD = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Proyecto_TiendaDataSet1 = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSet()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -63,53 +61,55 @@ Partial Class Pagina_Productos
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.AcerTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AcerTableAdapter()
-        Me.AdaptadoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AdaptadoresTableAdapter()
-        Me.Adaptadores_USBTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Adaptadores_USBTableAdapter()
-        Me.AlcatelTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AlcatelTableAdapter()
-        Me.AlfombrillasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AlfombrillasTableAdapter()
-        Me.AltavocesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AltavocesTableAdapter()
-        Me.AntenasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AntenasTableAdapter()
-        Me.AppleTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AppleTableAdapter()
-        Me.Apple1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Apple1TableAdapter()
-        Me.AsusTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AsusTableAdapter()
-        Me.Asus1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Asus1TableAdapter()
-        Me.AuricularesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AuricularesTableAdapter()
-        Me.BQTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.BQTableAdapter()
-        Me.BQ1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.BQ1TableAdapter()
-        Me.Cables_de_RedTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Cables_de_RedTableAdapter()
-        Me.Discos_DurosTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Discos_DurosTableAdapter()
-        Me.DVITableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.DVITableAdapter()
-        Me.HDMITableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.HDMITableAdapter()
-        Me.HuaweiTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.HuaweiTableAdapter()
-        Me.Hubs_SwitchsTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Hubs_SwitchsTableAdapter()
-        Me.LGTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.LGTableAdapter()
-        Me.Memoria_RAMTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Memoria_RAMTableAdapter()
-        Me.MicrosoftTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.MicrosoftTableAdapter()
-        Me.MonitoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.MonitoresTableAdapter()
-        Me.Nintendo_3DSTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Nintendo_3DSTableAdapter()
-        Me.Nintendo_SwitchTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Nintendo_SwitchTableAdapter()
-        Me.NvidiaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.NvidiaTableAdapter()
-        Me.PlacasBaseTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.PlacasBaseTableAdapter()
-        Me.PortatilesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.PortatilesTableAdapter()
-        Me.ProcesadoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.ProcesadoresTableAdapter()
-        Me.RatonesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.RatonesTableAdapter()
-        Me.RoutersTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.RoutersTableAdapter()
-        Me.SamsungTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.SamsungTableAdapter()
-        Me.Samsung1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Samsung1TableAdapter()
-        Me.SobremesaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.SobremesaTableAdapter()
-        Me.SonyTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.SonyTableAdapter()
-        Me.Sony_PS4TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Sony_PS4TableAdapter()
-        Me.Sony_PSVitaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Sony_PSVitaTableAdapter()
-        Me.Tarjetas_de_SonidoTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Tarjetas_de_SonidoTableAdapter()
-        Me.Tarjetas_GraficasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Tarjetas_GraficasTableAdapter()
-        Me.Tarjetas_RedTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Tarjetas_RedTableAdapter()
-        Me.TecladosTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.TecladosTableAdapter()
-        Me.USBTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.USBTableAdapter()
-        Me.VGATableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.VGATableAdapter()
-        Me.WebcamsTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.WebcamsTableAdapter()
-        Me.XBOX_ONETableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.XBOX_ONETableAdapter()
-        Me.Grabadoras_DVD_BluRayTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Grabadoras_DVD_BluRayTableAdapter()
+        Me.Proyecto_Tienda_BBDD_AzureDataSet1 = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSet()
+        Me.BindingSourceAzureBBDD = New System.Windows.Forms.BindingSource(Me.components)
+        Me.AcerTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AcerTableAdapter()
+        Me.AdaptadoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AdaptadoresTableAdapter()
+        Me.Adaptadores_USBTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Adaptadores_USBTableAdapter()
+        Me.AlcatelTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AlcatelTableAdapter()
+        Me.AlfombrillasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AlfombrillasTableAdapter()
+        Me.AltavocesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AltavocesTableAdapter()
+        Me.AntenasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AntenasTableAdapter()
+        Me.AppleTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AppleTableAdapter()
+        Me.Apple1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Apple1TableAdapter()
+        Me.AsusTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AsusTableAdapter()
+        Me.Asus1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Asus1TableAdapter()
+        Me.AuricularesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AuricularesTableAdapter()
+        Me.BQTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.BQTableAdapter()
+        Me.BQ1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.BQ1TableAdapter()
+        Me.Cables_de_RedTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Cables_de_RedTableAdapter()
+        Me.Discos_DurosTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Discos_DurosTableAdapter()
+        Me.DVITableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.DVITableAdapter()
+        Me.Grabadoras_DVD_BluRayTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Grabadoras_DVD_BluRayTableAdapter()
+        Me.HDMITableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.HDMITableAdapter()
+        Me.HuaweiTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.HuaweiTableAdapter()
+        Me.Hubs_SwitchsTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Hubs_SwitchsTableAdapter()
+        Me.LGTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.LGTableAdapter()
+        Me.Memoria_RAMTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Memoria_RAMTableAdapter()
+        Me.MicrosoftTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.MicrosoftTableAdapter()
+        Me.MonitoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.MonitoresTableAdapter()
+        Me.Nintendo_3DSTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Nintendo_3DSTableAdapter()
+        Me.Nintendo_SwitchTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Nintendo_SwitchTableAdapter()
+        Me.NvidiaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.NvidiaTableAdapter()
+        Me.PlacasBaseTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.PlacasBaseTableAdapter()
+        Me.PortatilesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.PortatilesTableAdapter()
+        Me.ProcesadoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.ProcesadoresTableAdapter()
+        Me.RatonesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.RatonesTableAdapter()
+        Me.RoutersTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.RoutersTableAdapter()
+        Me.SamsungTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SamsungTableAdapter()
+        Me.Samsung1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Samsung1TableAdapter()
+        Me.SobremesaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SobremesaTableAdapter()
+        Me.SonyTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SonyTableAdapter()
+        Me.Sony_PSVitaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Sony_PSVitaTableAdapter()
+        Me.Sony_PS4TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Sony_PS4TableAdapter()
+        Me.Tarjetas_de_SonidoTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_de_SonidoTableAdapter()
+        Me.Tarjetas_GraficasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_GraficasTableAdapter()
+        Me.Tarjetas_RedTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_RedTableAdapter()
+        Me.TecladosTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.TecladosTableAdapter()
+        Me.USBTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.USBTableAdapter()
+        Me.VGATableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.VGATableAdapter()
+        Me.WebcamsTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.WebcamsTableAdapter()
+        Me.XBOX_ONETableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.XBOX_ONETableAdapter()
         Me.Panel1.SuspendLayout()
         Me.GroupBox8.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
@@ -118,13 +118,13 @@ Partial Class Pagina_Productos
         Me.GroupBox5.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
-        CType(Me.BindingSourceBBDD, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Proyecto_TiendaDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Proyecto_Tienda_BBDD_AzureDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BindingSourceAzureBBDD, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -400,22 +400,12 @@ Partial Class Pagina_Productos
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceBBDD, "id", True))
+        Me.Label11.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceAzureBBDD, "id", True))
         Me.Label11.Location = New System.Drawing.Point(25, 45)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(107, 47)
         Me.Label11.TabIndex = 1
         Me.Label11.Text = "IDID_001"
-        '
-        'BindingSourceBBDD
-        '
-        Me.BindingSourceBBDD.DataMember = "Grabadoras_DVD-BluRay"
-        Me.BindingSourceBBDD.DataSource = Me.Proyecto_TiendaDataSet1
-        '
-        'Proyecto_TiendaDataSet1
-        '
-        Me.Proyecto_TiendaDataSet1.DataSetName = "Proyecto_TiendaDataSet"
-        Me.Proyecto_TiendaDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'GroupBox4
         '
@@ -431,7 +421,7 @@ Partial Class Pagina_Productos
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceBBDD, "Precio", True))
+        Me.Label2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceAzureBBDD, "Precio", True))
         Me.Label2.Location = New System.Drawing.Point(22, 45)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(55, 47)
@@ -480,7 +470,7 @@ Partial Class Pagina_Productos
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceBBDD, "Stock", True))
+        Me.Label5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceAzureBBDD, "Stock", True))
         Me.Label5.Location = New System.Drawing.Point(109, 45)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(52, 47)
@@ -499,7 +489,7 @@ Partial Class Pagina_Productos
         '
         'Label6
         '
-        Me.Label6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceBBDD, "Descripcion", True))
+        Me.Label6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceAzureBBDD, "Descripcion", True))
         Me.Label6.Font = New System.Drawing.Font("Javanese Text", 10.25!)
         Me.Label6.Location = New System.Drawing.Point(6, 34)
         Me.Label6.Name = "Label6"
@@ -509,7 +499,7 @@ Partial Class Pagina_Productos
         '
         'Label1
         '
-        Me.Label1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceBBDD, "Nombre", True))
+        Me.Label1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BindingSourceAzureBBDD, "Nombre", True))
         Me.Label1.Font = New System.Drawing.Font("Javanese Text", 15.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(405, 50)
         Me.Label1.Name = "Label1"
@@ -520,7 +510,7 @@ Partial Class Pagina_Productos
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.DataBindings.Add(New System.Windows.Forms.Binding("Image", Me.BindingSourceBBDD, "Imagen", True))
+        Me.PictureBox1.DataBindings.Add(New System.Windows.Forms.Binding("Image", Me.BindingSourceAzureBBDD, "Imagen", True))
         Me.PictureBox1.Image = Global.Proyecto_Tienda_PcComponentes.My.Resources.Resources.Apple_iPad_2017_32GB_Gris_Espacial
         Me.PictureBox1.Location = New System.Drawing.Point(6, 66)
         Me.PictureBox1.Name = "PictureBox1"
@@ -539,6 +529,16 @@ Partial Class Pagina_Productos
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 4
         Me.PictureBox2.TabStop = False
+        '
+        'Proyecto_Tienda_BBDD_AzureDataSet1
+        '
+        Me.Proyecto_Tienda_BBDD_AzureDataSet1.DataSetName = "Proyecto_Tienda_BBDD_AzureDataSet"
+        Me.Proyecto_Tienda_BBDD_AzureDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'BindingSourceAzureBBDD
+        '
+        Me.BindingSourceAzureBBDD.DataMember = "XBOX_ONE"
+        Me.BindingSourceAzureBBDD.DataSource = Me.Proyecto_Tienda_BBDD_AzureDataSet1
         '
         'AcerTableAdapter
         '
@@ -607,6 +607,10 @@ Partial Class Pagina_Productos
         'DVITableAdapter
         '
         Me.DVITableAdapter.ClearBeforeFill = True
+        '
+        'Grabadoras_DVD_BluRayTableAdapter
+        '
+        Me.Grabadoras_DVD_BluRayTableAdapter.ClearBeforeFill = True
         '
         'HDMITableAdapter
         '
@@ -684,13 +688,13 @@ Partial Class Pagina_Productos
         '
         Me.SonyTableAdapter.ClearBeforeFill = True
         '
-        'Sony_PS4TableAdapter
-        '
-        Me.Sony_PS4TableAdapter.ClearBeforeFill = True
-        '
         'Sony_PSVitaTableAdapter
         '
         Me.Sony_PSVitaTableAdapter.ClearBeforeFill = True
+        '
+        'Sony_PS4TableAdapter
+        '
+        Me.Sony_PS4TableAdapter.ClearBeforeFill = True
         '
         'Tarjetas_de_SonidoTableAdapter
         '
@@ -724,10 +728,6 @@ Partial Class Pagina_Productos
         '
         Me.XBOX_ONETableAdapter.ClearBeforeFill = True
         '
-        'Grabadoras_DVD_BluRayTableAdapter
-        '
-        Me.Grabadoras_DVD_BluRayTableAdapter.ClearBeforeFill = True
-        '
         'Pagina_Productos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -752,8 +752,6 @@ Partial Class Pagina_Productos
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox7.ResumeLayout(False)
         Me.GroupBox7.PerformLayout()
-        CType(Me.BindingSourceBBDD, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Proyecto_TiendaDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
@@ -761,6 +759,8 @@ Partial Class Pagina_Productos
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Proyecto_Tienda_BBDD_AzureDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BindingSourceAzureBBDD, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -802,53 +802,53 @@ Partial Class Pagina_Productos
     Friend WithEvents Label13 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label10 As Label
-    Friend WithEvents Proyecto_TiendaDataSet1 As Proyecto_TiendaDataSet
-    Friend WithEvents BindingSourceBBDD As BindingSource
-    Friend WithEvents AcerTableAdapter As Proyecto_TiendaDataSetTableAdapters.AcerTableAdapter
-    Friend WithEvents AdaptadoresTableAdapter As Proyecto_TiendaDataSetTableAdapters.AdaptadoresTableAdapter
-    Friend WithEvents Adaptadores_USBTableAdapter As Proyecto_TiendaDataSetTableAdapters.Adaptadores_USBTableAdapter
-    Friend WithEvents AlcatelTableAdapter As Proyecto_TiendaDataSetTableAdapters.AlcatelTableAdapter
-    Friend WithEvents AlfombrillasTableAdapter As Proyecto_TiendaDataSetTableAdapters.AlfombrillasTableAdapter
-    Friend WithEvents AltavocesTableAdapter As Proyecto_TiendaDataSetTableAdapters.AltavocesTableAdapter
-    Friend WithEvents AntenasTableAdapter As Proyecto_TiendaDataSetTableAdapters.AntenasTableAdapter
-    Friend WithEvents AppleTableAdapter As Proyecto_TiendaDataSetTableAdapters.AppleTableAdapter
-    Friend WithEvents Apple1TableAdapter As Proyecto_TiendaDataSetTableAdapters.Apple1TableAdapter
-    Friend WithEvents AsusTableAdapter As Proyecto_TiendaDataSetTableAdapters.AsusTableAdapter
-    Friend WithEvents Asus1TableAdapter As Proyecto_TiendaDataSetTableAdapters.Asus1TableAdapter
-    Friend WithEvents AuricularesTableAdapter As Proyecto_TiendaDataSetTableAdapters.AuricularesTableAdapter
-    Friend WithEvents BQTableAdapter As Proyecto_TiendaDataSetTableAdapters.BQTableAdapter
-    Friend WithEvents BQ1TableAdapter As Proyecto_TiendaDataSetTableAdapters.BQ1TableAdapter
-    Friend WithEvents Cables_de_RedTableAdapter As Proyecto_TiendaDataSetTableAdapters.Cables_de_RedTableAdapter
-    Friend WithEvents Discos_DurosTableAdapter As Proyecto_TiendaDataSetTableAdapters.Discos_DurosTableAdapter
-    Friend WithEvents DVITableAdapter As Proyecto_TiendaDataSetTableAdapters.DVITableAdapter
-    Friend WithEvents HDMITableAdapter As Proyecto_TiendaDataSetTableAdapters.HDMITableAdapter
-    Friend WithEvents HuaweiTableAdapter As Proyecto_TiendaDataSetTableAdapters.HuaweiTableAdapter
-    Friend WithEvents Hubs_SwitchsTableAdapter As Proyecto_TiendaDataSetTableAdapters.Hubs_SwitchsTableAdapter
-    Friend WithEvents LGTableAdapter As Proyecto_TiendaDataSetTableAdapters.LGTableAdapter
-    Friend WithEvents Memoria_RAMTableAdapter As Proyecto_TiendaDataSetTableAdapters.Memoria_RAMTableAdapter
-    Friend WithEvents MicrosoftTableAdapter As Proyecto_TiendaDataSetTableAdapters.MicrosoftTableAdapter
-    Friend WithEvents MonitoresTableAdapter As Proyecto_TiendaDataSetTableAdapters.MonitoresTableAdapter
-    Friend WithEvents Nintendo_3DSTableAdapter As Proyecto_TiendaDataSetTableAdapters.Nintendo_3DSTableAdapter
-    Friend WithEvents Nintendo_SwitchTableAdapter As Proyecto_TiendaDataSetTableAdapters.Nintendo_SwitchTableAdapter
-    Friend WithEvents NvidiaTableAdapter As Proyecto_TiendaDataSetTableAdapters.NvidiaTableAdapter
-    Friend WithEvents PlacasBaseTableAdapter As Proyecto_TiendaDataSetTableAdapters.PlacasBaseTableAdapter
-    Friend WithEvents PortatilesTableAdapter As Proyecto_TiendaDataSetTableAdapters.PortatilesTableAdapter
-    Friend WithEvents ProcesadoresTableAdapter As Proyecto_TiendaDataSetTableAdapters.ProcesadoresTableAdapter
-    Friend WithEvents RatonesTableAdapter As Proyecto_TiendaDataSetTableAdapters.RatonesTableAdapter
-    Friend WithEvents RoutersTableAdapter As Proyecto_TiendaDataSetTableAdapters.RoutersTableAdapter
-    Friend WithEvents SamsungTableAdapter As Proyecto_TiendaDataSetTableAdapters.SamsungTableAdapter
-    Friend WithEvents Samsung1TableAdapter As Proyecto_TiendaDataSetTableAdapters.Samsung1TableAdapter
-    Friend WithEvents SobremesaTableAdapter As Proyecto_TiendaDataSetTableAdapters.SobremesaTableAdapter
-    Friend WithEvents SonyTableAdapter As Proyecto_TiendaDataSetTableAdapters.SonyTableAdapter
-    Friend WithEvents Sony_PS4TableAdapter As Proyecto_TiendaDataSetTableAdapters.Sony_PS4TableAdapter
-    Friend WithEvents Sony_PSVitaTableAdapter As Proyecto_TiendaDataSetTableAdapters.Sony_PSVitaTableAdapter
-    Friend WithEvents Tarjetas_de_SonidoTableAdapter As Proyecto_TiendaDataSetTableAdapters.Tarjetas_de_SonidoTableAdapter
-    Friend WithEvents Tarjetas_GraficasTableAdapter As Proyecto_TiendaDataSetTableAdapters.Tarjetas_GraficasTableAdapter
-    Friend WithEvents Tarjetas_RedTableAdapter As Proyecto_TiendaDataSetTableAdapters.Tarjetas_RedTableAdapter
-    Friend WithEvents TecladosTableAdapter As Proyecto_TiendaDataSetTableAdapters.TecladosTableAdapter
-    Friend WithEvents USBTableAdapter As Proyecto_TiendaDataSetTableAdapters.USBTableAdapter
-    Friend WithEvents VGATableAdapter As Proyecto_TiendaDataSetTableAdapters.VGATableAdapter
-    Friend WithEvents WebcamsTableAdapter As Proyecto_TiendaDataSetTableAdapters.WebcamsTableAdapter
-    Friend WithEvents XBOX_ONETableAdapter As Proyecto_TiendaDataSetTableAdapters.XBOX_ONETableAdapter
-    Friend WithEvents Grabadoras_DVD_BluRayTableAdapter As Proyecto_TiendaDataSetTableAdapters.Grabadoras_DVD_BluRayTableAdapter
+    Friend WithEvents Proyecto_Tienda_BBDD_AzureDataSet1 As Proyecto_Tienda_BBDD_AzureDataSet
+    Friend WithEvents BindingSourceAzureBBDD As BindingSource
+    Friend WithEvents AcerTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AcerTableAdapter
+    Friend WithEvents AdaptadoresTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AdaptadoresTableAdapter
+    Friend WithEvents Adaptadores_USBTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Adaptadores_USBTableAdapter
+    Friend WithEvents AlcatelTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AlcatelTableAdapter
+    Friend WithEvents AlfombrillasTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AlfombrillasTableAdapter
+    Friend WithEvents AltavocesTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AltavocesTableAdapter
+    Friend WithEvents AntenasTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AntenasTableAdapter
+    Friend WithEvents AppleTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AppleTableAdapter
+    Friend WithEvents Apple1TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Apple1TableAdapter
+    Friend WithEvents AsusTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AsusTableAdapter
+    Friend WithEvents Asus1TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Asus1TableAdapter
+    Friend WithEvents AuricularesTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AuricularesTableAdapter
+    Friend WithEvents BQTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.BQTableAdapter
+    Friend WithEvents BQ1TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.BQ1TableAdapter
+    Friend WithEvents Cables_de_RedTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Cables_de_RedTableAdapter
+    Friend WithEvents Discos_DurosTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Discos_DurosTableAdapter
+    Friend WithEvents DVITableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.DVITableAdapter
+    Friend WithEvents Grabadoras_DVD_BluRayTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Grabadoras_DVD_BluRayTableAdapter
+    Friend WithEvents HDMITableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.HDMITableAdapter
+    Friend WithEvents HuaweiTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.HuaweiTableAdapter
+    Friend WithEvents Hubs_SwitchsTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Hubs_SwitchsTableAdapter
+    Friend WithEvents LGTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.LGTableAdapter
+    Friend WithEvents Memoria_RAMTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Memoria_RAMTableAdapter
+    Friend WithEvents MicrosoftTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.MicrosoftTableAdapter
+    Friend WithEvents MonitoresTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.MonitoresTableAdapter
+    Friend WithEvents Nintendo_3DSTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Nintendo_3DSTableAdapter
+    Friend WithEvents Nintendo_SwitchTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Nintendo_SwitchTableAdapter
+    Friend WithEvents NvidiaTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.NvidiaTableAdapter
+    Friend WithEvents PlacasBaseTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.PlacasBaseTableAdapter
+    Friend WithEvents PortatilesTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.PortatilesTableAdapter
+    Friend WithEvents ProcesadoresTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.ProcesadoresTableAdapter
+    Friend WithEvents RatonesTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.RatonesTableAdapter
+    Friend WithEvents RoutersTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.RoutersTableAdapter
+    Friend WithEvents SamsungTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SamsungTableAdapter
+    Friend WithEvents Samsung1TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Samsung1TableAdapter
+    Friend WithEvents SobremesaTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SobremesaTableAdapter
+    Friend WithEvents SonyTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SonyTableAdapter
+    Friend WithEvents Sony_PSVitaTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Sony_PSVitaTableAdapter
+    Friend WithEvents Sony_PS4TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Sony_PS4TableAdapter
+    Friend WithEvents Tarjetas_de_SonidoTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_de_SonidoTableAdapter
+    Friend WithEvents Tarjetas_GraficasTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_GraficasTableAdapter
+    Friend WithEvents Tarjetas_RedTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_RedTableAdapter
+    Friend WithEvents TecladosTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.TecladosTableAdapter
+    Friend WithEvents USBTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.USBTableAdapter
+    Friend WithEvents VGATableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.VGATableAdapter
+    Friend WithEvents WebcamsTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.WebcamsTableAdapter
+    Friend WithEvents XBOX_ONETableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.XBOX_ONETableAdapter
 End Class

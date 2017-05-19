@@ -86,67 +86,67 @@ Partial Class Pagina_Administrador
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
         Me.consultas = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Proyecto_Tienda_BBDD_AzureDataSet1 = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSet()
+        Me.BindingSourceAdminAzure = New System.Windows.Forms.BindingSource(Me.components)
+        Me.AcerTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AcerTableAdapter()
+        Me.AdaptadoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AdaptadoresTableAdapter()
+        Me.Adaptadores_USBTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Adaptadores_USBTableAdapter()
+        Me.AlcatelTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AlcatelTableAdapter()
+        Me.AlfombrillasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AlfombrillasTableAdapter()
+        Me.AltavocesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AltavocesTableAdapter()
+        Me.AntenasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AntenasTableAdapter()
+        Me.AppleTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AppleTableAdapter()
+        Me.Apple1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Apple1TableAdapter()
+        Me.AsusTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AsusTableAdapter()
+        Me.Asus1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Asus1TableAdapter()
+        Me.AuricularesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AuricularesTableAdapter()
+        Me.BQTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.BQTableAdapter()
+        Me.BQ1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.BQ1TableAdapter()
+        Me.Cables_de_RedTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Cables_de_RedTableAdapter()
+        Me.Discos_DurosTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Discos_DurosTableAdapter()
+        Me.DVITableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.DVITableAdapter()
+        Me.Grabadoras_DVD_BluRayTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Grabadoras_DVD_BluRayTableAdapter()
+        Me.HDMITableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.HDMITableAdapter()
+        Me.HuaweiTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.HuaweiTableAdapter()
+        Me.Hubs_SwitchsTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Hubs_SwitchsTableAdapter()
+        Me.LGTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.LGTableAdapter()
+        Me.Memoria_RAMTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Memoria_RAMTableAdapter()
+        Me.MicrosoftTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.MicrosoftTableAdapter()
+        Me.MonitoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.MonitoresTableAdapter()
+        Me.Nintendo_3DSTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Nintendo_3DSTableAdapter()
+        Me.Nintendo_SwitchTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Nintendo_SwitchTableAdapter()
+        Me.NvidiaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.NvidiaTableAdapter()
+        Me.PlacasBaseTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.PlacasBaseTableAdapter()
+        Me.PortatilesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.PortatilesTableAdapter()
+        Me.ProcesadoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.ProcesadoresTableAdapter()
+        Me.RatonesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.RatonesTableAdapter()
+        Me.RoutersTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.RoutersTableAdapter()
+        Me.SamsungTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SamsungTableAdapter()
+        Me.Samsung1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Samsung1TableAdapter()
+        Me.SobremesaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SobremesaTableAdapter()
+        Me.SonyTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SonyTableAdapter()
+        Me.Sony_PS4TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Sony_PS4TableAdapter()
+        Me.Sony_PSVitaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Sony_PSVitaTableAdapter()
+        Me.Tarjetas_de_SonidoTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_de_SonidoTableAdapter()
+        Me.Tarjetas_GraficasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_GraficasTableAdapter()
+        Me.Tarjetas_RedTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_RedTableAdapter()
+        Me.TecladosTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.TecladosTableAdapter()
+        Me.USBTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.USBTableAdapter()
+        Me.VGATableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.VGATableAdapter()
+        Me.WebcamsTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.WebcamsTableAdapter()
+        Me.XBOX_ONETableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.XBOX_ONETableAdapter()
         Me.IdDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.NombreDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PrecioDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ImagenDataGridViewImageColumn = New System.Windows.Forms.DataGridViewImageColumn()
         Me.DescripcionDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.StockDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.BindingSourceAdmin = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Proyecto_TiendaDataSet = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSet()
-        Me.AdaptadoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AdaptadoresTableAdapter()
-        Me.Adaptadores_USBTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Adaptadores_USBTableAdapter()
-        Me.AlcatelTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AlcatelTableAdapter()
-        Me.AlfombrillasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AlfombrillasTableAdapter()
-        Me.AltavocesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AltavocesTableAdapter()
-        Me.AntenasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AntenasTableAdapter()
-        Me.AppleTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AppleTableAdapter()
-        Me.Apple1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Apple1TableAdapter()
-        Me.AsusTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AsusTableAdapter()
-        Me.Asus1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Asus1TableAdapter()
-        Me.AuricularesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AuricularesTableAdapter()
-        Me.BQ1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.BQ1TableAdapter()
-        Me.Cables_de_RedTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Cables_de_RedTableAdapter()
-        Me.Discos_DurosTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Discos_DurosTableAdapter()
-        Me.DVITableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.DVITableAdapter()
-        Me.Grabadoras_DVD_BluRayTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Grabadoras_DVD_BluRayTableAdapter()
-        Me.HDMITableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.HDMITableAdapter()
-        Me.HuaweiTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.HuaweiTableAdapter()
-        Me.Hubs_SwitchsTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Hubs_SwitchsTableAdapter()
-        Me.LGTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.LGTableAdapter()
-        Me.Memoria_RAMTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Memoria_RAMTableAdapter()
-        Me.MicrosoftTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.MicrosoftTableAdapter()
-        Me.MonitoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.MonitoresTableAdapter()
-        Me.Nintendo_3DSTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Nintendo_3DSTableAdapter()
-        Me.Nintendo_SwitchTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Nintendo_SwitchTableAdapter()
-        Me.NvidiaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.NvidiaTableAdapter()
-        Me.PlacasBaseTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.PlacasBaseTableAdapter()
-        Me.PortatilesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.PortatilesTableAdapter()
-        Me.ProcesadoresTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.ProcesadoresTableAdapter()
-        Me.RatonesTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.RatonesTableAdapter()
-        Me.RoutersTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.RoutersTableAdapter()
-        Me.SamsungTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.SamsungTableAdapter()
-        Me.Samsung1TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Samsung1TableAdapter()
-        Me.SobremesaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.SobremesaTableAdapter()
-        Me.SonyTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.SonyTableAdapter()
-        Me.Sony_PS4TableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Sony_PS4TableAdapter()
-        Me.Sony_PSVitaTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Sony_PSVitaTableAdapter()
-        Me.Tarjetas_de_SonidoTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Tarjetas_de_SonidoTableAdapter()
-        Me.Tarjetas_GraficasTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Tarjetas_GraficasTableAdapter()
-        Me.Tarjetas_RedTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.Tarjetas_RedTableAdapter()
-        Me.TecladosTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.TecladosTableAdapter()
-        Me.USBTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.USBTableAdapter()
-        Me.VGATableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.VGATableAdapter()
-        Me.WebcamsTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.WebcamsTableAdapter()
-        Me.XBOX_ONETableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.XBOX_ONETableAdapter()
-        Me.BQTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.BQTableAdapter()
-        Me.AcerTableAdapter = New Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AcerTableAdapter()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuProductos.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BindingSourceAdmin, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Proyecto_TiendaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Proyecto_Tienda_BBDD_AzureDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BindingSourceAdminAzure, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -521,7 +521,7 @@ Partial Class Pagina_Administrador
         Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdDataGridViewTextBoxColumn, Me.NombreDataGridViewTextBoxColumn, Me.PrecioDataGridViewTextBoxColumn, Me.ImagenDataGridViewImageColumn, Me.DescripcionDataGridViewTextBoxColumn, Me.StockDataGridViewTextBoxColumn})
-        Me.DataGridView1.DataSource = Me.BindingSourceAdmin
+        Me.DataGridView1.DataSource = Me.BindingSourceAdminAzure
         Me.DataGridView1.Location = New System.Drawing.Point(181, 130)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(644, 239)
@@ -570,51 +570,19 @@ Partial Class Pagina_Administrador
         Me.Label1.Text = "Haga su consulta a la BBDD"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'IdDataGridViewTextBoxColumn
+        'Proyecto_Tienda_BBDD_AzureDataSet1
         '
-        Me.IdDataGridViewTextBoxColumn.DataPropertyName = "id"
-        Me.IdDataGridViewTextBoxColumn.HeaderText = "id"
-        Me.IdDataGridViewTextBoxColumn.Name = "IdDataGridViewTextBoxColumn"
+        Me.Proyecto_Tienda_BBDD_AzureDataSet1.DataSetName = "Proyecto_Tienda_BBDD_AzureDataSet"
+        Me.Proyecto_Tienda_BBDD_AzureDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
-        'NombreDataGridViewTextBoxColumn
+        'BindingSourceAdminAzure
         '
-        Me.NombreDataGridViewTextBoxColumn.DataPropertyName = "Nombre"
-        Me.NombreDataGridViewTextBoxColumn.HeaderText = "Nombre"
-        Me.NombreDataGridViewTextBoxColumn.Name = "NombreDataGridViewTextBoxColumn"
+        Me.BindingSourceAdminAzure.DataMember = "XBOX_ONE"
+        Me.BindingSourceAdminAzure.DataSource = Me.Proyecto_Tienda_BBDD_AzureDataSet1
         '
-        'PrecioDataGridViewTextBoxColumn
+        'AcerTableAdapter
         '
-        Me.PrecioDataGridViewTextBoxColumn.DataPropertyName = "Precio"
-        Me.PrecioDataGridViewTextBoxColumn.HeaderText = "Precio"
-        Me.PrecioDataGridViewTextBoxColumn.Name = "PrecioDataGridViewTextBoxColumn"
-        '
-        'ImagenDataGridViewImageColumn
-        '
-        Me.ImagenDataGridViewImageColumn.DataPropertyName = "Imagen"
-        Me.ImagenDataGridViewImageColumn.HeaderText = "Imagen"
-        Me.ImagenDataGridViewImageColumn.Name = "ImagenDataGridViewImageColumn"
-        '
-        'DescripcionDataGridViewTextBoxColumn
-        '
-        Me.DescripcionDataGridViewTextBoxColumn.DataPropertyName = "Descripcion"
-        Me.DescripcionDataGridViewTextBoxColumn.HeaderText = "Descripcion"
-        Me.DescripcionDataGridViewTextBoxColumn.Name = "DescripcionDataGridViewTextBoxColumn"
-        '
-        'StockDataGridViewTextBoxColumn
-        '
-        Me.StockDataGridViewTextBoxColumn.DataPropertyName = "Stock"
-        Me.StockDataGridViewTextBoxColumn.HeaderText = "Stock"
-        Me.StockDataGridViewTextBoxColumn.Name = "StockDataGridViewTextBoxColumn"
-        '
-        'BindingSourceAdmin
-        '
-        Me.BindingSourceAdmin.DataMember = "Acer"
-        Me.BindingSourceAdmin.DataSource = Me.Proyecto_TiendaDataSet
-        '
-        'Proyecto_TiendaDataSet
-        '
-        Me.Proyecto_TiendaDataSet.DataSetName = "Proyecto_TiendaDataSet"
-        Me.Proyecto_TiendaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        Me.AcerTableAdapter.ClearBeforeFill = True
         '
         'AdaptadoresTableAdapter
         '
@@ -659,6 +627,10 @@ Partial Class Pagina_Administrador
         'AuricularesTableAdapter
         '
         Me.AuricularesTableAdapter.ClearBeforeFill = True
+        '
+        'BQTableAdapter
+        '
+        Me.BQTableAdapter.ClearBeforeFill = True
         '
         'BQ1TableAdapter
         '
@@ -796,13 +768,41 @@ Partial Class Pagina_Administrador
         '
         Me.XBOX_ONETableAdapter.ClearBeforeFill = True
         '
-        'BQTableAdapter
+        'IdDataGridViewTextBoxColumn
         '
-        Me.BQTableAdapter.ClearBeforeFill = True
+        Me.IdDataGridViewTextBoxColumn.DataPropertyName = "id"
+        Me.IdDataGridViewTextBoxColumn.HeaderText = "id"
+        Me.IdDataGridViewTextBoxColumn.Name = "IdDataGridViewTextBoxColumn"
         '
-        'AcerTableAdapter
+        'NombreDataGridViewTextBoxColumn
         '
-        Me.AcerTableAdapter.ClearBeforeFill = True
+        Me.NombreDataGridViewTextBoxColumn.DataPropertyName = "Nombre"
+        Me.NombreDataGridViewTextBoxColumn.HeaderText = "Nombre"
+        Me.NombreDataGridViewTextBoxColumn.Name = "NombreDataGridViewTextBoxColumn"
+        '
+        'PrecioDataGridViewTextBoxColumn
+        '
+        Me.PrecioDataGridViewTextBoxColumn.DataPropertyName = "Precio"
+        Me.PrecioDataGridViewTextBoxColumn.HeaderText = "Precio"
+        Me.PrecioDataGridViewTextBoxColumn.Name = "PrecioDataGridViewTextBoxColumn"
+        '
+        'ImagenDataGridViewImageColumn
+        '
+        Me.ImagenDataGridViewImageColumn.DataPropertyName = "Imagen"
+        Me.ImagenDataGridViewImageColumn.HeaderText = "Imagen"
+        Me.ImagenDataGridViewImageColumn.Name = "ImagenDataGridViewImageColumn"
+        '
+        'DescripcionDataGridViewTextBoxColumn
+        '
+        Me.DescripcionDataGridViewTextBoxColumn.DataPropertyName = "Descripcion"
+        Me.DescripcionDataGridViewTextBoxColumn.HeaderText = "Descripcion"
+        Me.DescripcionDataGridViewTextBoxColumn.Name = "DescripcionDataGridViewTextBoxColumn"
+        '
+        'StockDataGridViewTextBoxColumn
+        '
+        Me.StockDataGridViewTextBoxColumn.DataPropertyName = "Stock"
+        Me.StockDataGridViewTextBoxColumn.HeaderText = "Stock"
+        Me.StockDataGridViewTextBoxColumn.Name = "StockDataGridViewTextBoxColumn"
         '
         'Pagina_Administrador
         '
@@ -827,8 +827,8 @@ Partial Class Pagina_Administrador
         Me.MenuProductos.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BindingSourceAdmin, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Proyecto_TiendaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Proyecto_Tienda_BBDD_AzureDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BindingSourceAdminAzure, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -892,63 +892,63 @@ Partial Class Pagina_Administrador
     Friend WithEvents WiiUToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NintendoSwithToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents BindingSourceAdmin As BindingSource
-    Friend WithEvents Proyecto_TiendaDataSet As Proyecto_TiendaDataSet
-    Friend WithEvents AdaptadoresTableAdapter As Proyecto_TiendaDataSetTableAdapters.AdaptadoresTableAdapter
-    Friend WithEvents Adaptadores_USBTableAdapter As Proyecto_TiendaDataSetTableAdapters.Adaptadores_USBTableAdapter
-    Friend WithEvents AlcatelTableAdapter As Proyecto_TiendaDataSetTableAdapters.AlcatelTableAdapter
-    Friend WithEvents AlfombrillasTableAdapter As Proyecto_TiendaDataSetTableAdapters.AlfombrillasTableAdapter
-    Friend WithEvents AltavocesTableAdapter As Proyecto_TiendaDataSetTableAdapters.AltavocesTableAdapter
-    Friend WithEvents AntenasTableAdapter As Proyecto_TiendaDataSetTableAdapters.AntenasTableAdapter
-    Friend WithEvents AppleTableAdapter As Proyecto_TiendaDataSetTableAdapters.AppleTableAdapter
-    Friend WithEvents Apple1TableAdapter As Proyecto_TiendaDataSetTableAdapters.Apple1TableAdapter
-    Friend WithEvents AsusTableAdapter As Proyecto_TiendaDataSetTableAdapters.AsusTableAdapter
-    Friend WithEvents Asus1TableAdapter As Proyecto_TiendaDataSetTableAdapters.Asus1TableAdapter
-    Friend WithEvents AuricularesTableAdapter As Proyecto_TiendaDataSetTableAdapters.AuricularesTableAdapter
-    Friend WithEvents BQ1TableAdapter As Proyecto_TiendaDataSetTableAdapters.BQ1TableAdapter
-    Friend WithEvents Cables_de_RedTableAdapter As Proyecto_TiendaDataSetTableAdapters.Cables_de_RedTableAdapter
-    Friend WithEvents Discos_DurosTableAdapter As Proyecto_TiendaDataSetTableAdapters.Discos_DurosTableAdapter
-    Friend WithEvents DVITableAdapter As Proyecto_TiendaDataSetTableAdapters.DVITableAdapter
-    Friend WithEvents Grabadoras_DVD_BluRayTableAdapter As Proyecto_TiendaDataSetTableAdapters.Grabadoras_DVD_BluRayTableAdapter
-    Friend WithEvents HDMITableAdapter As Proyecto_TiendaDataSetTableAdapters.HDMITableAdapter
-    Friend WithEvents HuaweiTableAdapter As Proyecto_TiendaDataSetTableAdapters.HuaweiTableAdapter
-    Friend WithEvents Hubs_SwitchsTableAdapter As Proyecto_TiendaDataSetTableAdapters.Hubs_SwitchsTableAdapter
-    Friend WithEvents LGTableAdapter As Proyecto_TiendaDataSetTableAdapters.LGTableAdapter
-    Friend WithEvents Memoria_RAMTableAdapter As Proyecto_TiendaDataSetTableAdapters.Memoria_RAMTableAdapter
-    Friend WithEvents MicrosoftTableAdapter As Proyecto_TiendaDataSetTableAdapters.MicrosoftTableAdapter
-    Friend WithEvents MonitoresTableAdapter As Proyecto_TiendaDataSetTableAdapters.MonitoresTableAdapter
-    Friend WithEvents Nintendo_3DSTableAdapter As Proyecto_TiendaDataSetTableAdapters.Nintendo_3DSTableAdapter
-    Friend WithEvents Nintendo_SwitchTableAdapter As Proyecto_TiendaDataSetTableAdapters.Nintendo_SwitchTableAdapter
-    Friend WithEvents NvidiaTableAdapter As Proyecto_TiendaDataSetTableAdapters.NvidiaTableAdapter
-    Friend WithEvents PlacasBaseTableAdapter As Proyecto_TiendaDataSetTableAdapters.PlacasBaseTableAdapter
-    Friend WithEvents PortatilesTableAdapter As Proyecto_TiendaDataSetTableAdapters.PortatilesTableAdapter
-    Friend WithEvents ProcesadoresTableAdapter As Proyecto_TiendaDataSetTableAdapters.ProcesadoresTableAdapter
-    Friend WithEvents RatonesTableAdapter As Proyecto_TiendaDataSetTableAdapters.RatonesTableAdapter
-    Friend WithEvents RoutersTableAdapter As Proyecto_TiendaDataSetTableAdapters.RoutersTableAdapter
-    Friend WithEvents SamsungTableAdapter As Proyecto_TiendaDataSetTableAdapters.SamsungTableAdapter
-    Friend WithEvents Samsung1TableAdapter As Proyecto_TiendaDataSetTableAdapters.Samsung1TableAdapter
-    Friend WithEvents SobremesaTableAdapter As Proyecto_TiendaDataSetTableAdapters.SobremesaTableAdapter
-    Friend WithEvents SonyTableAdapter As Proyecto_TiendaDataSetTableAdapters.SonyTableAdapter
-    Friend WithEvents Sony_PS4TableAdapter As Proyecto_TiendaDataSetTableAdapters.Sony_PS4TableAdapter
-    Friend WithEvents Sony_PSVitaTableAdapter As Proyecto_TiendaDataSetTableAdapters.Sony_PSVitaTableAdapter
-    Friend WithEvents Tarjetas_de_SonidoTableAdapter As Proyecto_TiendaDataSetTableAdapters.Tarjetas_de_SonidoTableAdapter
-    Friend WithEvents Tarjetas_GraficasTableAdapter As Proyecto_TiendaDataSetTableAdapters.Tarjetas_GraficasTableAdapter
-    Friend WithEvents Tarjetas_RedTableAdapter As Proyecto_TiendaDataSetTableAdapters.Tarjetas_RedTableAdapter
-    Friend WithEvents TecladosTableAdapter As Proyecto_TiendaDataSetTableAdapters.TecladosTableAdapter
-    Friend WithEvents USBTableAdapter As Proyecto_TiendaDataSetTableAdapters.USBTableAdapter
-    Friend WithEvents VGATableAdapter As Proyecto_TiendaDataSetTableAdapters.VGATableAdapter
-    Friend WithEvents WebcamsTableAdapter As Proyecto_TiendaDataSetTableAdapters.WebcamsTableAdapter
-    Friend WithEvents XBOX_ONETableAdapter As Proyecto_TiendaDataSetTableAdapters.XBOX_ONETableAdapter
-    Friend WithEvents BQTableAdapter As Proyecto_TiendaDataSetTableAdapters.BQTableAdapter
     Friend WithEvents Button1 As Button
+    Friend WithEvents DataGridView2 As DataGridView
+    Friend WithEvents consultas As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Proyecto_Tienda_BBDD_AzureDataSet1 As Proyecto_Tienda_BBDD_AzureDataSet
+    Friend WithEvents BindingSourceAdminAzure As BindingSource
+    Friend WithEvents AcerTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AcerTableAdapter
+    Friend WithEvents AdaptadoresTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AdaptadoresTableAdapter
+    Friend WithEvents Adaptadores_USBTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Adaptadores_USBTableAdapter
+    Friend WithEvents AlcatelTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AlcatelTableAdapter
+    Friend WithEvents AlfombrillasTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AlfombrillasTableAdapter
+    Friend WithEvents AltavocesTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AltavocesTableAdapter
+    Friend WithEvents AntenasTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AntenasTableAdapter
+    Friend WithEvents AppleTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AppleTableAdapter
+    Friend WithEvents Apple1TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Apple1TableAdapter
+    Friend WithEvents AsusTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AsusTableAdapter
+    Friend WithEvents Asus1TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Asus1TableAdapter
+    Friend WithEvents AuricularesTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.AuricularesTableAdapter
+    Friend WithEvents BQTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.BQTableAdapter
+    Friend WithEvents BQ1TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.BQ1TableAdapter
+    Friend WithEvents Cables_de_RedTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Cables_de_RedTableAdapter
+    Friend WithEvents Discos_DurosTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Discos_DurosTableAdapter
+    Friend WithEvents DVITableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.DVITableAdapter
+    Friend WithEvents Grabadoras_DVD_BluRayTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Grabadoras_DVD_BluRayTableAdapter
+    Friend WithEvents HDMITableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.HDMITableAdapter
+    Friend WithEvents HuaweiTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.HuaweiTableAdapter
+    Friend WithEvents Hubs_SwitchsTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Hubs_SwitchsTableAdapter
+    Friend WithEvents LGTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.LGTableAdapter
+    Friend WithEvents Memoria_RAMTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Memoria_RAMTableAdapter
+    Friend WithEvents MicrosoftTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.MicrosoftTableAdapter
+    Friend WithEvents MonitoresTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.MonitoresTableAdapter
+    Friend WithEvents Nintendo_3DSTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Nintendo_3DSTableAdapter
+    Friend WithEvents Nintendo_SwitchTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Nintendo_SwitchTableAdapter
+    Friend WithEvents NvidiaTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.NvidiaTableAdapter
+    Friend WithEvents PlacasBaseTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.PlacasBaseTableAdapter
+    Friend WithEvents PortatilesTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.PortatilesTableAdapter
+    Friend WithEvents ProcesadoresTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.ProcesadoresTableAdapter
+    Friend WithEvents RatonesTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.RatonesTableAdapter
+    Friend WithEvents RoutersTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.RoutersTableAdapter
+    Friend WithEvents SamsungTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SamsungTableAdapter
+    Friend WithEvents Samsung1TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Samsung1TableAdapter
+    Friend WithEvents SobremesaTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SobremesaTableAdapter
+    Friend WithEvents SonyTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.SonyTableAdapter
+    Friend WithEvents Sony_PS4TableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Sony_PS4TableAdapter
+    Friend WithEvents Sony_PSVitaTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Sony_PSVitaTableAdapter
+    Friend WithEvents Tarjetas_de_SonidoTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_de_SonidoTableAdapter
+    Friend WithEvents Tarjetas_GraficasTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_GraficasTableAdapter
+    Friend WithEvents Tarjetas_RedTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.Tarjetas_RedTableAdapter
+    Friend WithEvents TecladosTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.TecladosTableAdapter
+    Friend WithEvents USBTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.USBTableAdapter
+    Friend WithEvents VGATableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.VGATableAdapter
+    Friend WithEvents WebcamsTableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.WebcamsTableAdapter
+    Friend WithEvents XBOX_ONETableAdapter As Proyecto_Tienda_BBDD_AzureDataSetTableAdapters.XBOX_ONETableAdapter
     Friend WithEvents IdDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents NombreDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents PrecioDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents ImagenDataGridViewImageColumn As DataGridViewImageColumn
     Friend WithEvents DescripcionDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents StockDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridView2 As DataGridView
-    Friend WithEvents consultas As TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents AcerTableAdapter As Proyecto_Tienda_PcComponentes.Proyecto_TiendaDataSetTableAdapters.AcerTableAdapter
 End Class
