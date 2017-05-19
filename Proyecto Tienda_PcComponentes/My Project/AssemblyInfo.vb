@@ -8,7 +8,7 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("Proyecto Tienda_PcComponentes")>
+<Assembly: AssemblyTitle("Azure Proyecto Tienda PcComponentes")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("Proyecto Tienda_PcComponentes")>

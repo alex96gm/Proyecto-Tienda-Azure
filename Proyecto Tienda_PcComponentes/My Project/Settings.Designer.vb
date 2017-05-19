@@ -68,11 +68,22 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=""Proyecto Tienda"";Integrated S"& _ 
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog='Proyecto Tienda';Integrated S"& _ 
             "ecurity=True")>  _
         Public ReadOnly Property Proyecto_TiendaConnectionString() As String
             Get
                 Return CType(Me("Proyecto_TiendaConnectionString"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=alejandroservidor.database.windows.net;Initial Catalog=""Proyecto Tien"& _ 
+            "da BBDD Azure"";User ID=Alejandro;Password=Alesgonzalez1996")>  _
+        Public ReadOnly Property Proyecto_Tienda_BBDD_AzureConnectionString() As String
+            Get
+                Return CType(Me("Proyecto_Tienda_BBDD_AzureConnectionString"),String)
             End Get
         End Property
     End Class

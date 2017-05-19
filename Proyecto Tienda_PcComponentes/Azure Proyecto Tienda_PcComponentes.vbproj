@@ -159,6 +159,11 @@
     <Compile Include="Facturacion\Mi_Carrito.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Proyecto_Tienda_BBDD_AzureDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Proyecto_Tienda_BBDD_AzureDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Registro y Usuarios\MiCuenta.Designer.vb">
       <DependentUpon>MiCuenta.vb</DependentUpon>
     </Compile>
@@ -310,6 +315,17 @@
     </None>
     <None Include="Proyecto_TiendaDataSet.xss">
       <DependentUpon>Proyecto_TiendaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Proyecto_Tienda_BBDD_AzureDataSet.xsc">
+      <DependentUpon>Proyecto_Tienda_BBDD_AzureDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Proyecto_Tienda_BBDD_AzureDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Proyecto_Tienda_BBDD_AzureDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Proyecto_Tienda_BBDD_AzureDataSet.xss">
+      <DependentUpon>Proyecto_Tienda_BBDD_AzureDataSet.xsd</DependentUpon>
     </None>
     <None Include="Resources\LogoPC.PNG" />
   </ItemGroup>
