@@ -37,7 +37,7 @@
         Dim numrandomrandom As Integer = random.Next(0, 999)
 
         Dim nomFact As String = "Factura" + CStr(numrandomrandom)
-        Dim rutaFactura = "C:\Users\alex9\Pictures\" + nomFact + ".jpg"
+        Dim rutaFactura = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\" + nomFact + ".jpg"
 
         ''Posición left de la captura en el formulario       
         Dim posx As Integer = 12
