@@ -235,7 +235,7 @@
 
     Private Sub Nombre_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Nombre.KeyPress
         If Asc(e.KeyChar) <> 8 Then
-            If Asc(e.KeyChar) < 64 Or Asc(e.KeyChar) > 122 Then
+            If Asc(e.KeyChar) < 64 Or Asc(e.KeyChar) > 255 Then
                 e.Handled = True
             End If
             If Asc(e.KeyChar) = 32 Then
@@ -247,7 +247,7 @@
 
     Private Sub provincia_KeyPress(sender As Object, e As KeyPressEventArgs) Handles provincia.KeyPress
         If Asc(e.KeyChar) <> 8 Then
-            If Asc(e.KeyChar) < 64 Or Asc(e.KeyChar) > 122 Then
+            If Asc(e.KeyChar) < 64 Or Asc(e.KeyChar) > 255 Then
                 e.Handled = True
             End If
             If Asc(e.KeyChar) = 32 Then
@@ -258,7 +258,7 @@
 
     Private Sub poblacion_KeyPress(sender As Object, e As KeyPressEventArgs) Handles poblacion.KeyPress
         If Asc(e.KeyChar) <> 8 Then
-            If Asc(e.KeyChar) < 64 Or Asc(e.KeyChar) > 122 Then
+            If Asc(e.KeyChar) < 64 Or Asc(e.KeyChar) > 255 Then
                 e.Handled = True
             End If
             If Asc(e.KeyChar) = 32 Then
