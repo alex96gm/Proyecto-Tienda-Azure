@@ -53,24 +53,25 @@
         Dim NumItems As Integer
         Dim ItemNum As Integer
         Dim TempItem As String
+
         If ListBox1.SelectedIndex <= 0 Then Exit Sub
-        NumItems = ListBox1.Items.Count
-        Dim TempList()
-        ReDim TempList(0 To NumItems - 1)
-        'rellenar temp, con elementos de la lista
-        For i = 0 To NumItems - 1
-            TempList(i) = ListBox1.Items(i)
-        Next i
-        'elemento seleccionado
-        ItemNum = ListBox1.SelectedIndex
-        'elementos intercambiados
-        TempItem = TempList(ItemNum)
-        TempList(ItemNum) = TempList(ItemNum - 1)
-        TempList(ItemNum - 1) = TempItem
-        ListBox1.Items.Clear()
-        ListBox1.Items.AddRange(TempList)
-        'Cambiar el índice de lista
-        ListBox1.SelectedIndex = ItemNum - 1
+            NumItems = ListBox1.Items.Count
+            Dim TempList()
+            ReDim TempList(0 To NumItems - 1)
+            'rellenar temp, con elementos de la lista
+            For i = 0 To NumItems - 1
+                TempList(i) = ListBox1.Items(i)
+            Next i
+            'elemento seleccionado
+            ItemNum = ListBox1.SelectedIndex
+            'elementos intercambiados
+            TempItem = TempList(ItemNum)
+            TempList(ItemNum) = TempList(ItemNum - 1)
+            TempList(ItemNum - 1) = TempItem
+            ListBox1.Items.Clear()
+            ListBox1.Items.AddRange(TempList)
+            'Cambiar el índice de lista
+            ListBox1.SelectedIndex = ItemNum - 1
 
     End Sub
 
@@ -78,26 +79,30 @@
         Dim NumItems As Integer
         Dim ItemNum As Integer
         Dim TempItem As String
-        If ListBox1.SelectedIndex = ListBox1.Items.Count - 1 Then
-            Exit Sub
-        End If
-        NumItems = ListBox1.Items.Count
-        Dim TempList()
-        ReDim TempList(0 To NumItems - 1)
-        'Rellenar la serie con elementos del cuadro de lista
-        For i = 0 To NumItems - 1
-            TempList(i) = ListBox1.Items(i)
-        Next i
-        'Elemento seleccionado
-        ItemNum = ListBox1.SelectedIndex
-        'elementos intercambiados
-        TempItem = TempList(ItemNum)
-        TempList(ItemNum) = TempList(ItemNum + 1)
-        TempList(ItemNum + 1) = TempItem
-        ListBox1.Items.Clear()
-        ListBox1.Items.AddRange(TempList)
-        'Cambiar el índice de lista
-        ListBox1.SelectedIndex = ItemNum + 1
+        Try
+            If ListBox1.SelectedIndex = ListBox1.Items.Count - 1 Then
+                Exit Sub
+            End If
+            NumItems = ListBox1.Items.Count
+            Dim TempList()
+            ReDim TempList(0 To NumItems - 1)
+            'Rellenar la serie con elementos del cuadro de lista
+            For i = 0 To NumItems - 1
+                TempList(i) = ListBox1.Items(i)
+            Next i
+            'Elemento seleccionado
+            ItemNum = ListBox1.SelectedIndex
+            'elementos intercambiados
+            TempItem = TempList(ItemNum)
+            TempList(ItemNum) = TempList(ItemNum + 1)
+            TempList(ItemNum + 1) = TempItem
+            ListBox1.Items.Clear()
+            ListBox1.Items.AddRange(TempList)
+            'Cambiar el índice de lista
+            ListBox1.SelectedIndex = ItemNum + 1
+        Catch ex As Exception
+            MsgBox("Debe tener seleccionado un producto para subir o bajar uno de las lista ")
+        End Try
     End Sub
 
     Private Sub salir_Click(sender As Object, e As EventArgs) Handles salir.Click
