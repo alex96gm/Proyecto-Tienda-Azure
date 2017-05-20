@@ -21,6 +21,11 @@
 
     Private Sub QuienesSomos_Load(sender As Object, e As EventArgs) Handles Me.Load
         ''rojo 254 verde 127 azul 0 hex fe7f00
-        Panel1.BackColor.ToArgb(fe7f00)
+        Dim color As Integer
+        color = RGB(254, 127, 0)
+
+        Panel1.BackColor = ColorTranslator.FromOle(color)
+        Panel2.BackColor = ColorTranslator.FromOle(color)
+        Panel3.BackColor = ColorTranslator.FromOle(color)
     End Sub
 End Class

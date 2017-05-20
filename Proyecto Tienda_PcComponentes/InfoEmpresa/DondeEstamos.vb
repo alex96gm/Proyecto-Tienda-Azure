@@ -16,5 +16,9 @@
                                         </body>
                                     </html>
                                    "
+        Dim color As Integer
+        color = RGB(254, 127, 0)
+
+        Panel1.BackColor = ColorTranslator.FromOle(color)
     End Sub
 End Class
