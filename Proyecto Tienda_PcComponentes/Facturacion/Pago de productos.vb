@@ -1,4 +1,5 @@
-﻿Public Class facturacion
+﻿Imports System.Data.SqlClient
+Public Class facturacion
     Private Sub facturacion_Load(sender As Object, e As EventArgs) Handles Me.Load
 
         ''DATOS DEL CLIENTE
@@ -42,5 +43,36 @@
 
     Private Sub Cancelar_Click(sender As Object, e As EventArgs) Handles Cancelar.Click
         Me.Close()
+    End Sub
+
+    Private Sub facturacion_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        'Try
+        '    Dim consulta As String = consultas.Text
+        '    Dim connectionString As String = "Server=tcp:alejandroservidor.database.windows.net,1433;Initial Catalog=Proyecto Tienda BBDD Azure;Persist Security Info=False;User ID=Alejandro;Password=Alesgonzalez1996;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
+        '    Dim connection As New SqlConnection(connectionString)
+        '    Dim queryCommand As SqlCommand
+        '    queryCommand = New SqlCommand
+        '    queryCommand.CommandType = CommandType.Text
+        '    queryCommand.CommandText = consulta
+        '    queryCommand.Connection = connection
+        '    connection.Open()
+
+        '    Dim reader As SqlDataReader = queryCommand.ExecuteReader()
+
+
+
+
+        '    'Dim DatosTabla As DataTable = New DataTable
+        '    'DatosTabla.Load(reader)
+        '    'DataGridView2.DataSource = DatosTabla
+
+        '    connection.Close()
+
+
+        '    Me.OnLoad(e)
+        'Catch ex As Exception
+        '    MsgBox("La consulta no se ha realizado correctamente")
+        'End Try
     End Sub
 End Class
