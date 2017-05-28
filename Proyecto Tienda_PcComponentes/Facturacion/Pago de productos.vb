@@ -31,6 +31,7 @@ Public Class facturacion
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If tarjeta.Text.Length = 16 And CVC.Text.Length = 3 And caducidad.Text.Length = 4 Then
             Dim schema = {"Cables", "Componentes", "Consolas", "Moviles", "Ordenadores", "Perifericos", "Redes", "Tablets"}
+
             Dim x As Integer = 0
             Do
                 If listProductos.Count > 0 Then
@@ -51,10 +52,8 @@ Public Class facturacion
 
                             Dim reader As SqlDataReader = queryCommand.ExecuteReader()
 
-
-                            Me.OnLoad(e)
                         Catch ex As Exception
-                            MsgBox(ex.ToString)
+
                         End Try
                     Next
                     x = x + 1
