@@ -152,7 +152,13 @@ Public Class Pagina_Productos
         Dim precio As Integer
         Dim precioTo As Integer
         Dim fr1 As New Mi_Carrito
-        Dim tablaBBDD As String = BindingSourceAzureBBDD.DataMember
+        Dim tablaBBDD As String
+
+        If BindingSourceAzureBBDD.DataMember.Contains("1") Then
+            tablaBBDD = BindingSourceAzureBBDD.DataMember.Substring(0, BindingSourceAzureBBDD.DataMember.Length - 1)
+        Else
+            tablaBBDD = BindingSourceAzureBBDD.DataMember
+        End If
 
         nom = Label1.Text
         cant = TextBox1.Text
