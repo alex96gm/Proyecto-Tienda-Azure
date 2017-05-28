@@ -30,6 +30,36 @@ Public Class facturacion
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If tarjeta.Text.Length = 16 And CVC.Text.Length = 3 And caducidad.Text.Length = 4 Then
+            Dim schema = {"Cables", "Componentes", "Consolas", "Moviles", "Ordenadores", "Perifericos", "Redes", "Tablets"}
+            Dim x As Integer = 0
+            Do
+                If listProductos.Count > 0 Then
+
+                    For Each item As String In schema
+                        Try
+                            Dim consulta As String = "update " & item & "." & listProductos.ElementAt(x).tabla & " set stock=stock-" & listProductos.ElementAt(x).cantProducto & " where nombre like '" & listProductos.ElementAt(x).nomProducto & "'"
+
+                            Dim connectionString As String = "Data Source=alejandroservidor.database.windows.net;Initial Catalog='Proyecto Tienda BBDD Azure';User ID=Alejandro;Password=Alesgonzalez1996"
+
+                            Dim connection As New SqlConnection(connectionString)
+                            Dim queryCommand As SqlCommand
+                            queryCommand = New SqlCommand
+                            queryCommand.CommandType = CommandType.Text
+                            queryCommand.CommandText = consulta
+                            queryCommand.Connection = connection
+                            connection.Open()
+
+                            Dim reader As SqlDataReader = queryCommand.ExecuteReader()
+
+
+                            Me.OnLoad(e)
+                        Catch ex As Exception
+                            MsgBox(ex.ToString)
+                        End Try
+                    Next
+                    x = x + 1
+                End If
+            Loop Until x = listProductos.Count
 
             Me.Close()
             Dim form As New Factura
@@ -38,6 +68,7 @@ Public Class facturacion
         Else
 
             MsgBox("Algún dato de la facturación es incorrecta")
+
         End If
     End Sub
 
@@ -46,33 +77,7 @@ Public Class facturacion
     End Sub
 
     Private Sub facturacion_Closed(sender As Object, e As EventArgs) Handles Me.Closed
-        'Try
-        '    Dim consulta As String = consultas.Text
-        '    Dim connectionString As String = "Server=tcp:alejandroservidor.database.windows.net,1433;Initial Catalog=Proyecto Tienda BBDD Azure;Persist Security Info=False;User ID=Alejandro;Password=Alesgonzalez1996;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-
-        '    Dim connection As New SqlConnection(connectionString)
-        '    Dim queryCommand As SqlCommand
-        '    queryCommand = New SqlCommand
-        '    queryCommand.CommandType = CommandType.Text
-        '    queryCommand.CommandText = consulta
-        '    queryCommand.Connection = connection
-        '    connection.Open()
-
-        '    Dim reader As SqlDataReader = queryCommand.ExecuteReader()
 
 
-
-
-        '    'Dim DatosTabla As DataTable = New DataTable
-        '    'DatosTabla.Load(reader)
-        '    'DataGridView2.DataSource = DatosTabla
-
-        '    connection.Close()
-
-
-        '    Me.OnLoad(e)
-        'Catch ex As Exception
-        '    MsgBox("La consulta no se ha realizado correctamente")
-        'End Try
     End Sub
 End Class

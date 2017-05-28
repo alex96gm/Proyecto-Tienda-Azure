@@ -1,4 +1,6 @@
-﻿Public Class Pagina_Productos
+﻿
+Imports System.Data.SqlClient
+Public Class Pagina_Productos
 
     Private Sub Perifericos_Monitores_Load(sender As Object, e As EventArgs) Handles Me.Load
         'TODO: esta línea de código carga datos en la tabla 'Proyecto_Tienda_BBDD_AzureDataSet1.XBOX_ONE' Puede moverla o quitarla según sea necesario.
@@ -150,6 +152,8 @@
         Dim precio As Integer
         Dim precioTo As Integer
         Dim fr1 As New Mi_Carrito
+        Dim tablaBBDD As String = BindingSourceAzureBBDD.DataMember
+
         nom = Label1.Text
         cant = TextBox1.Text
         precio = Label2.Text
@@ -166,6 +170,7 @@
         thisList.precProducto = precio
         thisList.cantProducto = cant
         thisList.totalProducto = precioTo
+        thisList.tabla = tablaBBDD
         listProductos.Add(thisList)
 
         MsgBox("Se ha añadido el producto al carrito")
