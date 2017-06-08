@@ -8,13 +8,16 @@ Public Class PaginaPrincipal
     Dim banner6 As Bitmap = My.Resources.heroagonmin
     Dim banner7 As Bitmap = My.Resources.banner7
     Dim banner8 As Bitmap = My.Resources.banner8
+    Dim banner11 As Bitmap = My.Resources.banner11
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Dim random As New Random()
-        Dim banners() As Bitmap = {banner1, banner2, banner3, banner4, banner5, banner6, banner7, banner8}
+        Dim banners() As Bitmap = {banner1, banner2, banner3, banner4, banner5, banner6, banner7, banner8, banner11}
         Dim bannersRandom As Integer = random.Next(0, banners.Length)
         BannerProductos.Image = banners(bannersRandom)
     End Sub
     Private Sub PaginaPrincipal_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+        'Usuario adminitstrador
         contador = contador + 1
         ReDim Preserve lista(contador)
         lista(contadorUsuarios).nom = "admin"
