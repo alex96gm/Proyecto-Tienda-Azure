@@ -1466,7 +1466,7 @@ Partial Class PaginaPrincipal
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuProductos
         Me.Name = "PaginaPrincipal"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Pc Componentes"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuInfo.ResumeLayout(False)
